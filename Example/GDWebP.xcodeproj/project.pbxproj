@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020B506066F57B396FBD0440 /* GDWebP.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GDWebP.podspec; path = ../GDWebP.podspec; sourceTree = "<group>"; };
+		020B506066F57B396FBD0440 /* GDWebP.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GDWebP.podspec; path = ../GDWebP.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		56BE8EBE8A573E02C7952E78 /* Pods_GDWebP_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDWebP_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* GDWebP_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDWebP_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		868479551D0DCA4C7B4542BD /* Pods-GDWebP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDWebP_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDWebP_Tests/Pods-GDWebP_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB642E403FD9F3B9AA7F47F6 /* Pods-GDWebP_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDWebP_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDWebP_Example/Pods-GDWebP_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AFBD8E12A6898C000C806BFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AFBD8E12A6898C000C806BFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D09FB983383508DD3F28E9EA /* Pods_GDWebP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDWebP_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB4B1C19D58027E341AD20AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DB4B1C19D58027E341AD20AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E6E1C8F1F2667E21DD6DF18D /* Pods-GDWebP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDWebP_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDWebP_Example/Pods-GDWebP_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EF4FF1E9B0859DF20D0932FD /* Pods-GDWebP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDWebP_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDWebP_Tests/Pods-GDWebP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -302,10 +302,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GDWebP_Example/Pods-GDWebP_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
 				"${BUILT_PRODUCTS_DIR}/GDWebP/GDWebP.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDWebP.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

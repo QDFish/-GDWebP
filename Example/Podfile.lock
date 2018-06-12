@@ -1,0 +1,70 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FLAnimatedImage (1.0.12)
+  - GDWebP (0.1.0):
+    - GDWebP/core (= 0.1.0)
+    - GDWebP/dec (= 0.1.0)
+    - GDWebP/demux (= 0.1.0)
+    - GDWebP/dsp (= 0.1.0)
+    - GDWebP/enc (= 0.1.0)
+    - GDWebP/mux (= 0.1.0)
+    - GDWebP/SDCore (= 0.1.0)
+    - GDWebP/SDGIF (= 0.1.0)
+    - GDWebP/SDWebp (= 0.1.0)
+    - GDWebP/utils (= 0.1.0)
+    - GDWebP/webp (= 0.1.0)
+  - GDWebP/core (0.1.0):
+    - GDWebP/webp
+  - GDWebP/dec (0.1.0):
+    - GDWebP/core
+  - GDWebP/demux (0.1.0):
+    - GDWebP/core
+  - GDWebP/dsp (0.1.0):
+    - GDWebP/core
+  - GDWebP/enc (0.1.0):
+    - GDWebP/core
+  - GDWebP/mux (0.1.0):
+    - GDWebP/core
+  - GDWebP/SDCore (0.1.0)
+  - GDWebP/SDGIF (0.1.0):
+    - FLAnimatedImage (~> 1.0)
+    - GDWebP/SDCore
+  - GDWebP/SDWebp (0.1.0):
+    - GDWebP/core
+    - GDWebP/dec
+    - GDWebP/demux
+    - GDWebP/dsp
+    - GDWebP/enc
+    - GDWebP/mux
+    - GDWebP/SDCore
+    - GDWebP/utils
+    - GDWebP/webp
+  - GDWebP/utils (0.1.0):
+    - GDWebP/core
+  - GDWebP/webp (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GDWebP (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+    - FLAnimatedImage
+
+EXTERNAL SOURCES:
+  GDWebP:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GDWebP: 062f696a6e78856cef48efe3b6b004dcfedd82e2
+
+PODFILE CHECKSUM: e9dfdf8e9f7b8fbaf4cd8598b3903c7019af2b6e
+
+COCOAPODS: 1.5.3
