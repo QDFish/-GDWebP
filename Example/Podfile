@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GDWebP_Example' do
+  pod 'GDWebP', :path => '../'
+
+  target 'GDWebP_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
